@@ -1,0 +1,20 @@
+Ctrl + Tab 标签页切换
+
+Ctrl + R 替换
+Ctrl + N 查找类
+Ctrl + F12 文件结构
+Ctrl + E 最近打开文件
+Ctrl + G 转到行
+Ctrl + H 类的结构
+Ctrl + O 替换方法
+Ctrl + I 实现方法
+Ctrl + Y 删除行
+Ctrl + - 收起当前代码
+Ctrl + D 复制当前行
+Ctrl + [ 跳转代码起始处
+Ctrl + F10 编译并运行
+Ctrl + K commit
+Ctrl + T git pull
+
+shift + F6 重命名
+F2 错误处
