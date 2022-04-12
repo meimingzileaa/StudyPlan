@@ -49,7 +49,7 @@ Pid Uid
 >   Linux的uid是针对多用户操作系统中用于区分用户。
 >   an系统中1999>uid>10000这个整数范围中的id号代表用户app的uid，同时gid是和uid对齐。 ps命令行的输出中有一列USER，代表的就是UID，如下图：
 >   ![img.png](img.png)  
->   所以结算方式就是app的uid/100000计算为userid填到u0处
->   app的uid减去10000填到axx处。
->   例如某个app的uid是10022，则计算出来ps打印得到uid字串就是u0_a22
+>   app的uid/100000计算为userid为u0
+>   app的uid减去10000为axx。
+>   例如某个app的uid是10022，则uid字串就是u0_a22
 > * PID：为Process Identifier，　PID就是各进程的身份标识,程序一运行系统就会自动分配给进程一个独一无二的PID。
