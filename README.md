@@ -1,5 +1,5 @@
 # Study
-
+## [工作日记](https://github.com/meimingzileaa/StudyPlan/blob/master/WorkNote.md)
 ## 计算机基础
 ### 组成原理
 ### 操作系统
@@ -28,7 +28,6 @@
 ## 学习资料
 
 ## 课程笔记
-## 工作日记
 
 
 # 软实力
