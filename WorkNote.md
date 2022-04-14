@@ -1,9 +1,22 @@
 # This is my WorkNote
 
----
+***
 
 ## 4月
 
+
+**0413**  
+Hilt 依赖注入  
+一些注解的含义  
+快应用进程启动原理  
+Activity启动模式
+
+
+
+
+
+
+***
 **0412**
 
 Android 进程
@@ -48,7 +61,7 @@ Pid Uid
 > * UID：一般理解为User Identifier,UID在linux中就是用户的ID，表明时哪个用户运行了这个程序，主要用于权限的管理。
 >   Linux的uid是针对多用户操作系统中用于区分用户。
 >   an系统中1999>uid>10000这个整数范围中的id号代表用户app的uid，同时gid是和uid对齐。 ps命令行的输出中有一列USER，代表的就是UID，如下图：
->   ![img.png](img.png)  
+>   ![img.png](img.png)
 >   app的uid/100000计算为userid为u0
 >   app的uid减去10000为axx。
 >   例如某个app的uid是10022，则uid字串就是u0_a22
