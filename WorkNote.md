@@ -5,14 +5,16 @@
 ## 4月
 
 
+**0424**
+Gradle构建 groovy语法
+任务依赖
+Activity onNewIntent
+
 **0413**  
 Hilt 依赖注入  
 一些注解的含义  
 快应用进程启动原理  
 Activity启动模式
-
-
-
 
 
 
