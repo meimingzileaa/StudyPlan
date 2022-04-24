@@ -1,11 +1,11 @@
 
-##为什么apk瘦身
+## 为什么apk瘦身
 1. 提高下载转化率
 2. 减少rom占用
 3. 优化运行时内存占用
 4. 缩短apk安装时间
 
-##Apk内部组成
+## Apk内部组成
 1.内部组成
 >1. 代码部分（classes.dex） --- java编译后的class文件打包
 >2. 资源部分（res asserts resouces） --- xml layout color asset string array bool等
@@ -16,7 +16,7 @@
 >1. apktool
 >2. Analyze APK AndroidStudio自带
 
-##优化方向
+## 优化方向
 1. 代码优化
 > 1. 代码混淆 --> 瘦身 安全
 > 2. R8优化
