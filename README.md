@@ -10,6 +10,7 @@
 ## Android
 ### 基础
 ### 进阶
+* [插件化](https://github.com/meimingzileaa/StudyPlan/blob/master/Android%E8%BF%9B%E9%98%B6/%E6%8F%92%E4%BB%B6%E5%8C%96.md)
 ### 性能
 * [apk大小优化](https://github.com/meimingzileaa/StudyPlan/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/apk%E5%A4%A7%E5%B0%8F%E4%BC%98%E5%8C%96.md)
 
