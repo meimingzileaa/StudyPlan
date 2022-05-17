@@ -16,6 +16,7 @@
 * Broadcast
 * ContentProvider
 * View
+* Fragment
 * Layout
 * Canvas
 * Bitmap
@@ -24,6 +25,8 @@
 * Binder
 * Intent
 * Message
+* Resouces
+* 存储
 ### 进阶  (熟悉)
 * 进程&线程
 * 栈管理
@@ -32,6 +35,7 @@
 * Input系统
 * 绘制系统
 * 启动流程
+* Gradle
 ### 性能  (熟悉)
 * [apk大小优化](https://github.com/meimingzileaa/StudyPlan/blob/master/Android%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/apk%E5%A4%A7%E5%B0%8F%E4%BC%98%E5%8C%96.md)
 * 内存分析 （进行中）
