@@ -1,7 +1,29 @@
 # This is my WorkNote
 
 ***
+## 5月
+**0518**
+1 父类指向子类，会优先调用子类方法。
 
+    open class father{
+        open fun print(){
+            Log.e("=====>father", "father")
+        }
+    }
+    class son: father() {
+        override fun print(){
+            Log.e("=====>son", "son")
+        }
+    }
+    private fun Test() {
+        var p: father? = null
+        p = son()
+        p.print()
+    }
+    输出 ： Son
+
+2  Collections.synchronizedMap 可以使map同步     
+3  kotlin 扩展函数优先于原有函数 
 ## 4月
 
 
