@@ -1,4 +1,4 @@
-# Study
+``# Study
 ## [工作日记](https://github.com/meimingzileaa/StudyPlan/blob/master/WorkNote.md)
 ## 计算机基础
 ### 组成原理
