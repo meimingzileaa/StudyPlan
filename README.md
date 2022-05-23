@@ -28,6 +28,7 @@
 * Resouces
 * 存储
 ### 进阶  (熟悉)
+* ViewModel
 * 进程&线程
 * 栈管理
 * ActivityManager
