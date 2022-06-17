@@ -2,7 +2,54 @@
 
 ***
 ## 6月
-**0606**  
+
+**0617**
+1 String StringBuffer Stringbuilder  
+String 不可变类 每次改变都会新生成一个对象  
+StringBuffer则是可变类，任何对它所指代的字符串的改变都不会产生新的对象 线程安全
+Stringbuilder是可变类 线程不安全
+
+
+
+**0616**
+1 CountDownLatch  
+https://www.jianshu.com/p/128476015902
+使用场景：某个线程等待其他线程程返回结果时。
+CountDownLatch主要有两个方法：countDown()和await()。countDown()方法用于使计数器减一，其一般是执行任务的线程调用，await()方法则使调用该方法的线程处于等待状态，其一般是主线程调用。
+
+2 Gradle依赖配置compile，implementation和api的区别   
+api
+当其他模块依赖于此模块时，此模块使用api声明的依赖包是可以被其他模块使用  
+implementation  
+当其他模块依赖此模块时，此模块使用implementation声明的依赖包只限于模块内部使用，不允许其他模块使用。  
+compileOnly  
+依赖会添加到编译路径中，但是不会打包到apk中，因此只能在编译时访问，且compileOnly修饰的依赖不会传递。  
+runtimeOnly  
+与compileOnly相反，它修饰的依赖不会添加到编译路径中，但是被打包到apk中，运行时使用。没有使用过。
+annotationProcessor  
+用于注解处理器的依赖配置。  
+testCompile  
+只在单元测试代码的编译以及最终打包测试apk时有效。  
+debugCompile  
+只在 debug 模式的编译和最终的 debug apk 打包时有效。  
+Release compile  
+仅仅针对 Release 模式的编译和最终的 Release apk 打包。  
+
+3 DiskLruCache  磁盘缓存   
+三级缓存
+内存缓存
+磁盘缓存
+网络存储
+  
+4 Grpc  
+gRPC 是 Google 开源的一个高性能的 RPC(Remote Procedure Call) 框架，它具有如下的优点：  
+提供高效的进程间通信。gRPC 没有使用 XML 或者 JSON 这种文本格式，而是采用了基于 protocol buffers 的二进制协议；同时，gRPC 采用了 HTTP/2 做为通信协议，从而能够快速的处理进程间通信。  
+简单且良好的服务接口和模式。gRPC 为程序开发提供了一种契约优先的方式，必须首先定义服务接口，才能处理实现细节。  
+支持多语言。gRPC 是语言中立的，我们可以选择任意一种编程语言，都能够与 gRPC 客户端或者服务端进行交互。  
+成熟并且已被广泛使用。通过在 Google 的大量实战测试，gRPC 已经发展成熟。   
+
+
+**0606**    
 1 ASM
 是一个字节码操作库，它可以直接修改已经存在的class文件或者生成class文件。ASM提供了一些便捷的功能来操作字节码内容。
 
