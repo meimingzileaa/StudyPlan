@@ -6,7 +6,7 @@
 **0617**
 1 String StringBuffer Stringbuilder  
 String 不可变类 每次改变都会新生成一个对象  
-StringBuffer则是可变类，任何对它所指代的字符串的改变都不会产生新的对象 线程安全
+StringBuffer则是可变类，任何对它所指代的字符串的改变都不会产生新的对象 线程安全  
 Stringbuilder是可变类 线程不安全
 
 
