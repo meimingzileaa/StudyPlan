@@ -13,7 +13,7 @@ Stringbuilder是可变类 线程不安全
 
 **0616**
 1 CountDownLatch  
-https://www.jianshu.com/p/128476015902
+https://www.jianshu.com/p/128476015902  
 使用场景：某个线程等待其他线程程返回结果时。
 CountDownLatch主要有两个方法：countDown()和await()。countDown()方法用于使计数器减一，其一般是执行任务的线程调用，await()方法则使调用该方法的线程处于等待状态，其一般是主线程调用。
 
