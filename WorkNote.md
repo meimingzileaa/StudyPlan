@@ -1,6 +1,15 @@
 # This is my WorkNote
 
 ***
+## 7月
+**0718**
+1 同名Provider 安装冲突
+（1） 两个apk 引入相同的 module 安装冲突
+（2） 查看报错 provider
+（3） provider 使用了固定名称
+（4） 多思考义下leakcanary怎么处理的？ provider名称与包名相关设计
+
+
 ## 6月
 
 **0617**
