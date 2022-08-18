@@ -1,6 +1,14 @@
 # This is my WorkNote
 
 ***
+## 8月
+**0818**
+1 manifest 合并冲突解决
+2 android 单测使用andriod 包内容需要增加RobolectricTestRunner （bundle 失效）
+3 contentProvider acquireUnstableContentProviderClient 接口
+4 Flow 流的了解
+
+***
 ## 7月
 **0718**
 1 同名Provider 安装冲突
@@ -9,7 +17,7 @@
 （3） provider 使用了固定名称
 （4） 多思考义下leakcanary怎么处理的？ provider名称与包名相关设计
 
-
+***
 ## 6月
 
 **0617**
