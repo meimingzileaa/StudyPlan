@@ -3,7 +3,7 @@
 ***
 ## 8月
 **0818**
-1 manifest 合并冲突解决
+1 manifest 合并冲突解决 mergemanifest 按钮可以查看
 2 android 单测使用andriod 包内容需要增加RobolectricTestRunner （bundle 失效）
 3 contentProvider acquireUnstableContentProviderClient 接口
 4 Flow 流的了解
